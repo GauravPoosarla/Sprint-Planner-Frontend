@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SprintDurationInput should render with a value 1`] = `
+<DocumentFragment>
+  <div
+    class="sprint-duration-input"
+    data-testid="sprint-duration-input"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-animated css-9npbnl-MuiFormLabel-root-MuiInputLabel-root"
+    >
+      Sprint Duration(weeks): 
+    </label>
+    <form>
+      <div>
+        <div
+          class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+          data-testid="sprint-duration-input-field"
+        >
+          <div
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+              id="sprint-duration"
+              placeholder="Enter Sprint Duration"
+              type="number"
+              value="2"
+            />
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-ihdtdm"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SprintDurationInput should render without errors 1`] = `
+<DocumentFragment>
+  <div
+    class="sprint-duration-input"
+    data-testid="sprint-duration-input"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-animated css-9npbnl-MuiFormLabel-root-MuiInputLabel-root"
+    >
+      Sprint Duration(weeks): 
+    </label>
+    <form>
+      <div>
+        <div
+          class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+          data-testid="sprint-duration-input-field"
+        >
+          <div
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+              id="sprint-duration"
+              placeholder="Enter Sprint Duration"
+              type="number"
+              value=""
+            />
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-ihdtdm"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;

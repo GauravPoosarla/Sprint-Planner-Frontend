@@ -1,0 +1,10 @@
+/* .list-item { */
+/* background-color: #f5f5f5; */
+/* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2); */
+/* border-radius: 10px; */
+/* } */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .developer-name{ 
+      width: 50%;
+    }
+  }

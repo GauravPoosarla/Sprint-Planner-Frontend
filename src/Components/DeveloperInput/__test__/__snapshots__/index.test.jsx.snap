@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeveloperInput should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="dev-container"
+  >
+    <div
+      class="MuiBox-root css-ibnnmb"
+    >
+      <div>
+        <div
+          class="MuiBox-root css-1f2e32r"
+        >
+          <div
+            class="MuiBox-root css-1ehhlae"
+          >
+            SERIAL NO.
+          </div>
+          <div
+            class="MuiBox-root css-1ehhlae"
+          >
+            DEVELOPERS
+          </div>
+        </div>
+        <div
+          class="dev-list"
+        >
+          <p
+            data-testid="developerlength"
+            style="font-size: 1.3rem;"
+          >
+            No Developers
+          </p>
+        </div>
+      </div>
+      <form
+        class="developer-container-form"
+      >
+        <div
+          class="MuiBox-root css-167vvti"
+        >
+          <div />
+          <div
+            class="MuiBox-root css-1sq6md1"
+          >
+            <div>
+              <div
+                class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+                style="width: 100%;"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                    id=":r0:"
+                    name="developer"
+                    placeholder="Enter Developer Name"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="css-ihdtdm"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            aria-label="add"
+            class="MuiButtonBase-root MuiFab-root MuiFab-circular MuiFab-sizeLarge MuiFab-primary MuiFab-root MuiFab-circular MuiFab-sizeLarge MuiFab-primary css-1ioynfo-MuiButtonBase-root-MuiFab-root"
+            data-mui-internal-clone-element="true"
+            tabindex="0"
+            type="submit"
+          >
+            +
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TotalDurationInput should render with a value 1`] = `
+<DocumentFragment>
+  <div
+    class="total-duration-input"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-animated css-9npbnl-MuiFormLabel-root-MuiInputLabel-root"
+    >
+      Total Duration(weeks): 
+    </label>
+    <form>
+      <div>
+        <div
+          class="MuiFormControl-root MuiTextField-root css-1g7lsi9-MuiFormControl-root-MuiTextField-root"
+          data-testid="total-duration-input-field"
+        >
+          <div
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+              id="total-duration"
+              placeholder="Enter Total Duration"
+              type="number"
+              value="2"
+            />
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-ihdtdm"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TotalDurationInput should render without errors 1`] = `
+<DocumentFragment>
+  <div
+    class="total-duration-input"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-animated css-9npbnl-MuiFormLabel-root-MuiInputLabel-root"
+    >
+      Total Duration(weeks): 
+    </label>
+    <form>
+      <div>
+        <div
+          class="MuiFormControl-root MuiTextField-root css-1g7lsi9-MuiFormControl-root-MuiTextField-root"
+          data-testid="total-duration-input-field"
+        >
+          <div
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+              id="total-duration"
+              placeholder="Enter Total Duration"
+              type="number"
+              value=""
+            />
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-ihdtdm"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;
